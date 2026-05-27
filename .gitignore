@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Environment/secrets
+.env
+
+# Logs/temp files
+*.log
+tmp/
+temp/
+
+# Local Docker/data folders, if created
+postgres-data/
+grafana-data/
+prometheus-data/
